@@ -34,6 +34,8 @@ public class ReadMethods {
 				}
 				System.out.println("--------------");
 			}
+			is.close();
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -48,6 +50,8 @@ public class ReadMethods {
 				}
 				System.out.println("--------------");
 			}
+			is.close();
+
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
